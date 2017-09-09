@@ -1,0 +1,2 @@
+# IeshaEx1
+Iesha - Ex 1 Capture Temperature Conversion # Take inputs from user about Temp in Deg F and the day of week for the number # The prorgam ends when the user enters "Friday" # The Code has to do the following # a - Print the Temp in Deg C using C = (F-32)/1.8 # b - Print the Highest and Lowest Temp in Deg C in the Week # c - Print the number of days which had temp less than 20 C and the number of days above of equal to 20 C # d - Print Avg Temp in Deg C across the week
