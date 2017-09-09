@@ -1,0 +1,48 @@
+TempF->  Temperature in degree Fahrenheit 
+TempC-> Temperature in degree Celcius 
+Total-> Sum of all temperatures 
+Avg-> Average temperature of the week 
+Day-> Day of the week 
+CountG2-> Greatest temperature
+CountL2-> Lowest temperature 
+
+Highest= 0
+Lowest= 10000000
+CountL2 = 0
+CountG2 = 0
+Total = 0
+
+while Day != FRIDAY 
+do
+	Input Day 
+	Input TempF
+	Count= count+ 1
+
+	TempC= (TempF-32)/1.8
+	Print TempC
+	Total= total+ TempC
+
+	If TempC < 20
+		Then CountL2 = CountL2+ 1
+		Else CountG2 = CountG2 + 1
+	End if
+
+	If Highest > TempC
+		Then Highest= TempC
+	End if
+	If Lowest > Temp C
+		Then Lowest= TempC
+	End if
+End Do.
+
+Avg = Total/Count
+
+PRINT CountG2
+PRINT CountL2
+PRINT Highest
+PRINT Lowest 
+PRINT Avg
+END
+ 
+	
+
